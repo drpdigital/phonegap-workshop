@@ -9,7 +9,7 @@ Vagrant
 
 For those that want a ‘quickstart’ a vagrant box is available with phonegap and the android sdk  pre-installed.
 
-Sadly the box is reasonably large due tot he size of the android SDK and all the prerequisites.
+Sadly the box is reasonably large and totals at 2GB in size due to the size of the android SDK and all the prerequisites.
 
 To use this you will need to have [Vagrant](http://www.vagrantup.com/) and [Virtualbox](https://www.virtualbox.org/) installed.
 
