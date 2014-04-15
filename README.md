@@ -35,3 +35,5 @@ Make sure these are all installed in your path then install Phonegap via npm
 npm install -g phonegap
 ```
 The ```-g``` will install it globally so that you can run the phonegap command from anywhere on your system.
+
+*Please note that the Android SDK and Ant are only needed to build for android, you can swap these for different tools to build for other platforms or use the cloud build service Adobe provide for phonegap - This however is a less seamless experience for development*
