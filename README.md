@@ -21,3 +21,19 @@ vagrant ssh
 ```
 This should take you into a slightly different looking shell, this will be inside a virtual machine but will still be able to access this projects folder.
 
+Local
+-----
+
+If you do not want to use a virtual machine and would like to have a full toolchain on your machine then here is what you need.
+
+- [NodeJS](http://nodejs.org) (for npm)
+- [Android SDK](https://developer.android.com/sdk) This is rather large when unpacked
+- [Ant](https://ant.apache.org/manual/install.html) (Should be available in most package managers)
+
+Make sure these are all installed in your path then install Phonegap via npm
+```bash
+npm install -g phonegap
+```
+The ```-g``` will install it globally so that you can run the phonegap command from anywhere on your system.
+
+*Please note that the Android SDK and Ant are only needed to build for android, you can swap these for different tools to build for other platforms or use the cloud build service Adobe provide for phonegap - This however is a less seamless experience for development*
