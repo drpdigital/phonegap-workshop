@@ -9,7 +9,7 @@ Cloud
 You will need to have [Node](http://nodejs.org) installed, and a [PhoneGap Build](http://build.phonegap.com) account.
 
 ```bash
-npm install phonegap
+npm install phonegap -g
 phonegap create my-app
 cd my-app
 phonegap remote build android
