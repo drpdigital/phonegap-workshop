@@ -3,6 +3,22 @@ phonegap-workshop
 
 Learning PhoneGap
 
+Cloud
+-----
+
+You will need to have [Node](http://nodejs.org) installed, and a [PhoneGap Build](http://build.phonegap.com) account.
+
+```bash
+npm install phonegap
+phonegap create my-app
+cd my-app
+phonegap remote build android
+```
+
+To test the app, simply sign in to the [PhoneGap Build](http://build.phonegap.com) site on an android device, and you will see a link to download the APK.
+
+The free account only allows one app at a time, so if you want to work on multiple apps you will have to delete and re-add them when you switch projects.
+
 
 Vagrant
 -------
