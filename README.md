@@ -19,7 +19,8 @@ Note: The free account only allows one app at a time, so if you want to work on 
 
 To test the app, simply sign in to the [PhoneGap Build](http://build.phonegap.com) site on an android device, and you will see a link to download the APK.
 
-The base template comes with a limited set of functionality, if you want access to any device features like camera, accelerometer etc, you need to add [plugins](http://docs.phonegap.com/en/edge/guide_phonegap-build_index.md.html#Introducing%20PhoneGap%20Build_add_features_for_remotely_built_projects). Simply add the snippets to `www/config.xml`, and the build service does the rest.
+The base template comes with a limited set of functionality, if you want access to any device features like camera, accelerometer etc, you need to add [plugins](http://docs.phonegap.com/en/3.3.0/). Simply add the snippets to `www/config.xml`, and the build service does the rest.
+
 
 
 Vagrant
