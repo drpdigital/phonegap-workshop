@@ -15,9 +15,11 @@ cd my-app
 phonegap remote build android
 ```
 
+Note: The free account only allows one app at a time, so if you want to work on multiple apps you will have to delete and re-add them when you switch projects.
+
 To test the app, simply sign in to the [PhoneGap Build](http://build.phonegap.com) site on an android device, and you will see a link to download the APK.
 
-The free account only allows one app at a time, so if you want to work on multiple apps you will have to delete and re-add them when you switch projects.
+The base template comes with a limited set of functionality, if you want access to any device features like camera, accelerometer etc, you need to add [plugins](http://docs.phonegap.com/en/edge/guide_phonegap-build_index.md.html#Introducing%20PhoneGap%20Build_add_features_for_remotely_built_projects). Simply add the snippets to `www/config.xml`, and the build service does the rest.
 
 
 Vagrant
